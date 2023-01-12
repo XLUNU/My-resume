@@ -1,0 +1,45 @@
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.services {
+    padding: 90px 0;
+    
+}
+
+.services_row {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.service_card {
+    flex: 1 1 0;
+    min-width: 315px;
+}
+
+.service_card_img {
+    margin-bottom: 30px;
+}
+
+.service_card_title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.service_card p {
+    line-height: 2;
+}
+
+@media (max-width: 700px) {
+
+    .services {
+        padding: 60px 0;
+    }
+
+}

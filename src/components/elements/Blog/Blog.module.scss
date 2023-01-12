@@ -1,0 +1,103 @@
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.title_1 {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.portfolio {
+    padding: 90px 0;
+}
+
+.portfolio_title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.project {
+    text-align: center;
+    padding-top: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project_img {
+    margin-bottom: 40px;
+    // max-width: 930px;
+    // max-height: 500px;
+}
+
+.project_title {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.project_title a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.contacts_content {
+    max-width: 930px;
+    margin: 0 auto 40px auto;
+    font-size: 18px;
+}
+
+.search{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 400px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+}
+
+.buttonGroup {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    .button {
+        padding: 6px 17px;
+        border: 1px solid gray;
+        margin: 0 12px 15px 0;
+
+    }
+}
+
+@media (max-width: 700px) {
+    .portfolio {
+        padding: 60px 0;
+        
+    }
+
+    .project_content{
+        margin: 15px;
+    }
+
+    .portfolio_title {
+        margin-bottom: 50px;
+    }
+
+    .project_img {
+        margin-bottom: 30px;
+    }
+
+    .project + .project {
+        margin-top: 50px;
+    }
+
+}
