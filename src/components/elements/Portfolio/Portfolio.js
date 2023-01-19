@@ -18,10 +18,6 @@ const Portfolio = () => {
         requery()
     }, [])
 
-    // let filteredSearch = posts.filter(({title}) => {
-    //     return title.toLowerCase().includes(searchTerm.toLowerCase())
-    // })
-
     function searchFilter(e) {
         setSearchTerm(e);
         setTagFilterArray(posts.filter(({title}) => {
